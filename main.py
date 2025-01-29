@@ -6,8 +6,8 @@ import langchain
 
 import streamlit as st
 
-GROQ_API_KEY = st.secrets("GROQ_API_KEY")
-HUGGING_FACE_TOKEN = st.secrets("HUGGING_FACE_TOKEN")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+HUGGING_FACE_TOKEN = st.secrets["HUGGING_FACE_TOKEN"]
 
 from dotenv import  load_dotenv
 
